@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="wp-content"><h1>Page not found</h1><p>The page may have moved. Use the main navigation or return to the homepage.</p></main><?php get_footer(); ?>
