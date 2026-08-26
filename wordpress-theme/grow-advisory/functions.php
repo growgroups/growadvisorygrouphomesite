@@ -5,4 +5,3 @@ function grow_assets(){wp_enqueue_style('grow-style',get_stylesheet_uri(),array(
 add_action('wp_enqueue_scripts','grow_assets');
 function grow_register_projects(){register_post_type('project',array('labels'=>array('name'=>'Projects','singular_name'=>'Project'),'public'=>true,'has_archive'=>true,'rewrite'=>array('slug'=>'projects'),'show_in_rest'=>true,'supports'=>array('title','editor','excerpt','thumbnail','custom-fields')));}
 add_action('init','grow_register_projects');
-?>
